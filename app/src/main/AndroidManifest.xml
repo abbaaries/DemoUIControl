@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a58_009.demouicontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlertDialogEx" />
+        <activity android:name=".CheckBoxEx" />
+        <activity android:name=".DatePickerEx" />
+        <activity
+            android:name=".EditTextEx"
+            android:label="@string/title_activity_edit_text_exx"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RadioButtonEx" />
+        <activity android:name=".ListViewEx">
+            <activity android:name=".ProgressBarEx" />
+            <activity android:name=".ToggleButtonEx" />
+            <activity android:name=".RatingBarEx" />
+            <activity android:name=".TimePickerEx" />
+        </activity>
+        <activity android:name=".SpinnerEx"></activity>
+        <activity android:name=".GridViewEx"></activity>
+    </application>
+
+</manifest>

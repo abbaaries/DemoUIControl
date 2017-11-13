@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoUIControl</string>
+    <string name="title_activity_edit_text_exx">EditTextEXx</string>
+    <string-array name="cards">
+        <item>VISA</item>
+        <item>MasterCard</item>
+        <item>JBC</item>
+        <item>HSBC</item>
+        <item>CitiBack</item>
+        <item>SD</item>
+    </string-array>
+</resources>
